@@ -1,0 +1,42 @@
+:root{
+    --profit:#3498db00;
+}
+.AdminMain{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    font-size:30px;
+    padding:0px 30px;
+
+    width:600px;
+
+    border:2px solid #000;
+    border-radius:10px;
+    
+    background-image:linear-gradient(var(--profit),var(--profit))
+}
+
+.drivers{
+    list-style:none;
+
+}
+    .drivers li{
+        border:2px solid black;
+        border-radius:20px;
+        width:300px;
+        height:100px;
+        
+    }
+
+.profilePicture{
+    width:100px;
+    float:left;
+    border-radius:20px 0px 0px 20px;
+}
+.driverName{
+    height:100px;
+    padding-right:10px;
+    float:right;
+}

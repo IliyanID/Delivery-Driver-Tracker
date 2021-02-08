@@ -1,0 +1,52 @@
+:root{
+  --select:#3498db;
+  --selectB:#3498db6c;
+}
+html{
+  overflow:none;
+}
+.logout{
+  float:right;
+  
+  background: none;
+  color: inherit;
+  
+  border: 2px solid var(--select);
+  border-radius:5px;
+
+  padding: 10px;
+  margin:5px;
+	font: inherit;
+  cursor: pointer;
+  
+  transition:.3s;
+}
+  .logout:hover{
+    background-color:var(--select);
+    color:white;
+  }
+
+.Pages{
+  list-style:none;
+  text-align: center;
+}
+  .Pages li{
+    display:inline-block;
+    padding:10px 20px;
+    margin:10px;
+    font-size:20px;
+
+    cursor:pointer;
+    border:2px solid transparent;
+
+    transition:.3s;
+  }
+    .Pages li:hover{
+      border-bottom:2px solid var(--select);
+    }
+
+.selectedPage{
+  border:2px solid var(--select)!important;
+  border-radius:5px!important;
+  cursor: default!important;
+}
